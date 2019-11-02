@@ -16999,3 +16999,7 @@ body:not(.no-transition) #wrapper,
 	-webkit-text-stroke: 0px !important;
 	text-shadow: none !important;
 }
+
+.courses_card_img_top {
+	height:220px;
+}
