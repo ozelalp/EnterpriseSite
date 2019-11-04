@@ -17000,6 +17000,69 @@ body:not(.no-transition) #wrapper,
 	text-shadow: none !important;
 }
 
+/* Course Categories
+---------------------------------------------------------------------------- */
+.course-categories .card a span {
+	display: block;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	color: #FFF;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+	.course-categories .card a span i {
+		display: block;
+		margin-bottom: 5px;
+		font-size: 20px;
+	}
+
+.hover-effect {
+	-webkit-transition: transform .25s ease, box-shadow .3s ease;
+	-o-transition: transform .25s ease, box-shadow .3s ease;
+	transition: transform .25s ease, box-shadow .3s ease;
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	box-shadow: none;
+	border: 0;
+}
+
+	.hover-effect:hover {
+		-webkit-transform: translateY(-2px);
+		-ms-transform: translateY(-2px);
+		-o-transform: translateY(-2px);
+		transform: translateY(-2px);
+		box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	}
+
+.course-card .card-footer {
+	border-top-color: #EEE;
+}
+
+.rating-stars i {
+	color: #f4c150;
+}
+
+.course-card .card-title a {
+	color: #333;
+}
+
+	.course-card .card-title a:hover {
+		color: var(--themecolor);
+	}
+
+.course-card .card-title-sub {
+	font-size: 11px;
+}
+
 .courses_card_img_top {
-	height:220px;
+	height: 220px;
 }
