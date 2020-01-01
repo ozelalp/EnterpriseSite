@@ -25,5 +25,20 @@ namespace AO_ASPNETCore.Controllers
 		{
 			return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
 		}
+
+		public IActionResult ProgramlamayaGiris()
+		{
+			return View();
+		}
+
+		public IActionResult OOP()
+		{
+			return View();
+		}
+
+		public IActionResult DesignPatterns()
+		{
+			return View();
+		}
 	}
 }

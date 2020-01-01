@@ -12,7 +12,6 @@
 	============================================= -->
 				<div id="logo">
 					<a class="standard-logo" href="@Url.Action("Index", "Home" )"><img src="~/images/Transparent_Logo_Yanyana.png" alt="AkademiOzel Logo" /></a>
-					<a class="retina-logo" href="@Url.Action("Index", "Home" )"><img src="images/logo@2x.png" alt="AkademiÖzel Logo"></a>
 				</div><!-- #logo end -->
 				<!-- Primary Navigation
 	============================================= -->
@@ -29,17 +28,17 @@
 							</a>
 							<ul>
 								<li>
-									<a href="./programlamayagiris.html">
+									<a href="@Url.Action("ProgramlamayaGiris", "Home")">
 										<div><i class="icon-play1"></i>PROGRAMLAMAYA GİRİŞ</div>
 									</a>
 								</li>
 								<li>
-									<a href="./oop.html">
+									<a href="@Url.Action("OOP", "Home")">
 										<div><i class="icon-th-large1"></i>NESNE YÖNELİMLİ PROGRAMLAMA</div>
 									</a>
 								</li>
 								<li>
-									<a href="./designpatterns.html">
+									<a href="@Url.Action("DesignPatterns", "Home")">
 										<div><i class="icon-th-list1"></i>YAZILIM MİMARİLERİ</div>
 									</a>
 								</li>
